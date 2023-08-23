@@ -1,21 +1,8 @@
 = Bruecken
-:icons: font
-:icon-set: fa
-:source-highlighter: rouge
-:experimental:
-ifdef::env-github[]
-:tip-caption: :bulb:
-:note-caption: :information_source:
-:important-caption: :heavy_exclamation_mark:
-:caution-caption: :fire:
-:warning-caption: :warning:
-endif::[]
-:toc:
-:toc-placement!:
 
-toc::[]
 
-= Man hat sich an einem Seil in eine Hoehle herabgelassen. Dort sieht man viele,
+== Einführung
+Man hat sich an einem Seil in eine Hoehle herabgelassen. Dort sieht man viele,
 teilweise mit Haengebrucken verbundene, Felsplateaus. Auf jeder Bruecke liegt ein Goldbarren, 
 den man gerne einsammeln moechte. Allerdings sieht man, dass eine Brucke, sobald Sie sie einmal
 uberquert haben, reißen wird. Bevor man nun Ihr Rettungsseil loslassen, muss man daher wissen,
