@@ -1,7 +1,7 @@
-= Bruecken
+Bruecken
 
 
-== Einführung
+ Einführung
 Man hat sich an einem Seil in eine Hoehle herabgelassen. Dort sieht man viele,
 teilweise mit Haengebrucken verbundene, Felsplateaus. Auf jeder Bruecke liegt ein Goldbarren, 
 den man gerne einsammeln moechte. Allerdings sieht man, dass eine Brucke, sobald Sie sie einmal
@@ -9,7 +9,7 @@ uberquert haben, reißen wird. Bevor man nun Ihr Rettungsseil loslassen, muss ma
 auf welches Felsplateau man sich schwingen muss und von welchem Plateau man von seinem
 Rettungsteam wieder eingesammelt werden koennen.
 
-== Eingabe:
+ Eingabe:
  Als Eingabe bekommt man beliebig viele Dateien. Fur jede Datei gilt:
  
 • In jeder Zeile stehen zwei Zahlen, diese stehen fur zwei miteinander verbundene Felspla- 
@@ -30,21 +30,26 @@ die erste Eingabedatei verwenden.
 DAnn faehrt man fuer jede weitere Eingabedatei bei der jeweils naechsten ganzen
 Zahl fort.
 
-== Beispiel:
+ Beispiel:
+ 
 man hat zwei Eingabedateien. Die erte beinhaltet 5 Plateaus (Nummern 1-5) und die
 zweite 3 Plateaus (Nummern 1-3). Nach der Manipulation hat man die Plateaus 1-8. Weiterhin
 wird eine Verbindung zwischen 5 und 6 hinzugefuegt. 
 
 == Ausgabe:
+
 In die Ausgabedatei soll folgendes geschrieben werden:
+
 • beliebig, wenn man an jedem Felsplateau beginnen und enden kann.
 
 • in die erste Zeile das Startplateau, in die zweite Zeile das Zielplateu (hierbei soll immer
 Startplateau < Zielplateau gelten), wenn es genau eine Loesung gibt.
+
 • keine Loesung
 Jede Ausgabedatei endet mit einem Zeilenumbruch (\n).
 
-== Loesungsfindung:
+ Loesungsfindung:
+ 
 Sie mussen keinen Weg uber die Plateaus finden. Es reicht, wenn Ihr Pro- ¨
 gramm herausfindet, ob es eine L¨osung gibt, und wenn ja wie viele. Dies k¨onnen Sie wie folgt
 erkennen:
