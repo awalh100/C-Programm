@@ -50,32 +50,45 @@ Jede Ausgabedatei endet mit einem Zeilenumbruch (\n).
 
  Loesungsfindung:
  
-Sie mussen keinen Weg uber die Plateaus finden. Es reicht, wenn Ihr Pro- ¨
-gramm herausfindet, ob es eine L¨osung gibt, und wenn ja wie viele. Dies k¨onnen Sie wie folgt
+Man muss keinen Weg ueber die Plateaus finden. Es reicht, wenn der Programm
+ herausfindet, ob es eine Loesung gibt, und wenn ja wie viele. Dies kann man wie folgt
 erkennen:
-• Wenn jedes Felsplateau mit einer geraden Anzahl Brucken verbunden ist, so k ¨ ¨onnen Sie
+
+• Wenn jedes Felsplateau mit einer geraden Anzahl Brucken verbunden ist, so kann man
 an jedem Plateau starten.
-• Wenn genau zwei Fesplateaus mit einer ungeraden Anzahl Brucken verbunden sind, so ¨
+
+• Wenn genau zwei Fesplateaus mit einer ungeraden Anzahl Bruecken verbunden sind, so
 ist eines davon das Start-, das andere das Zielplateau.
-• In allen anderen F¨allen gibt es keine L¨osung
+• In allen anderen Faellen gibt es keine Loesung
+
 
 Wichtige Anforderungen an das Programm:
-• Der Speicher fur die Br ¨ ucken muss dynamisch alloziert werden. ¨
+• Der Speicher fur die Bruecken muss dynamisch alloziert werden.
+
 • Insbesondere darf dieser also nicht statisch alloziert werden.
+
 • Vor Beendigung des Programms muss der gesamte Speicher wieder freigegeben werden.
-Dies gilt auch fur ge ¨ ¨offnete Dateien.
+Dies gilt auch fur geoeffnete Dateien.
+
 • Valgrind darf weder Speicherzugriffsverletzungen noch Speicherlecks melden. Valgrind
 sollte auch keine anderen Fehler melden.
+
 • Alle Funktionen sowie gegebenenfalls Strukturen sollen in einer Headerdatei deklariert
 werden.
-• Sie durfen nie mehr als eine Datei gleichzeitig ge ¨ ¨offnet haben. Keine Datei darf mehr als
-einmal ge¨offnet oder geschlossen werden.
-Das Programm soll im Fehlerfall eine kurze aussagekr¨aftige Meldung ausgeben und folgende
-Ruckgabewerte ¨ haben:
-• 0, wenn das Programm ordnungsgem¨aß laufen konnte
-• 1, wenn nicht genugend Parameter ¨ ubergeben werden. ¨
-• 2, wenn eine der Ein- oder Ausgabedateien nicht ge¨offnet werden konnte.
+
+• Sie durfen nie mehr als eine Datei gleichzeitig geoeffnet haben. Keine Datei darf mehr als
+einmal geoeffnet oder geschlossen werden.
+
+Das Programm soll im Fehlerfall eine kurze aussagekraeftige Meldung ausgeben und folgende
+Rueckgabewertehaben:
+
+• 0, wenn das Programm ordnungsgemaeß laufen konnte
+
+• 1, wenn nicht genuegend Parameter uebergeben werden.
+
+• 2, wenn eine der Ein- oder Ausgabedateien nicht geoeffnet werden konnte.
+
 Aufruf des Programms: Das Programm bekommt beim Aufruf den Namen der Ein- und der
-Ausgabedatei ubergeben. Beispiele: ¨
+Ausgabedatei uebergeben. Beispiele: 
 ./bruecken eingabe.txt ausgabe.txt
 ./bruecken eingabe1.txt eingabe2.txt ausgabe.txt
