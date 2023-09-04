@@ -36,7 +36,7 @@ man hat zwei Eingabedateien. Die erte beinhaltet 5 Plateaus (Nummern 1-5) und di
 zweite 3 Plateaus (Nummern 1-3). Nach der Manipulation hat man die Plateaus 1-8. Weiterhin
 wird eine Verbindung zwischen 5 und 6 hinzugefuegt. 
 
-== Ausgabe:
+ Ausgabe:
 
 In die Ausgabedatei soll folgendes geschrieben werden:
 
